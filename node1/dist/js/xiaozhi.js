@@ -1,0 +1,1 @@
+"use strict";$(document).ready(function(){axios.get("https://mock-api.com/vzMZqvgG.mock/detail").then(function(t){var o,e;for(console.log("res",t.data),o=0;o<t.data.length;++o)e=t.data[o],console.log("item",e),$("#xiaozhi").append('<h4 style="text-align: center;">'+e.title+"</h4><p>"+e.detail+"</p>")}).catch(function(t){console.log("e",t)}),console.log("continue")});

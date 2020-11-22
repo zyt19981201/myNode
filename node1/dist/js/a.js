@@ -1,0 +1,1 @@
+"use strict";var x=100,y=100,fn=function(n,o){return console.log(n+o)};fn();

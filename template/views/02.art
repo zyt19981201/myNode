@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    {{if data.age >18}}
+    <p>年龄大于18</p>
+    {{else if age >20}}
+    <p>{{年龄大于20}}</p>
+
+    {{/if}}
+
+
+    <!-- 原始语法 -->
+    <% if(data.age > 18 )  {%> 年龄大于18 <%} else if(age > 20 ) { %>
+    年龄大于20 <% } %>
+</body>
+
+</html>
